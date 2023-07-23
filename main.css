@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  margin: 20px auto; /* Adiciona um espaçamento vertical de 20px entre os formulários */
+  width: 400px;
+  border: 4px solid;
+  background-color: #FF9A8B;
+  background-image: (90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center; /* Centraliza o conteúdo, incluindo o botão */
+  border-color: transparent;
+   box-shadow: 0 4px 8px rgba(157, 38, 121, 0.229);
+}
+
+html, body {
+  height: 100%; /* Definindo altura para ocupar a área visível */
+}
+
+body {
+  background-color: #FBDA61;
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+  background-size: cover; /* Ajusta o tamanho para cobrir toda a área visível do corpo */
+  background-position: center;
+  padding-top: 100px;
+  
+}
+
+form input {
+  flex: 1;
+  font-size: 18px;
+  background-color: #fff;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 4px;
+  box-shadow: 0 4px 8px rgba(157, 38, 121, 0.229);
+  box-sizing: border-box;
+  margin-right: 10px;
+  border-radius: 5px;
+  margin-top: 9px;
+  outline: none; /* Remove a borda de destaque ao focar no campo de entrada ou área de texto */
+}
+
+form label {
+  color: rgb(255, 255, 255); /* Define a cor do texto dos rótulos como branco */
+  text-shadow: 2px 2px 4px rgba(150, 15, 94, 0.55); /* Adiciona sombra nas palavras do rodapé */
+  
+  
+}
+
+
+form button {
+  background-color: #46e45b;
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin: 20px ;
+  width: 53px;
+  border-radius: 5px ;
+  border: transparent;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgb(52, 5, 32); /* Adiciona sombra nas palavras do rodapé */
+  
+}
+
+footer {
+  color: rgb(255, 255, 255); /* Define a cor do texto dos rótulos como branco */
+  text-align: center; /* Centraliza o conteúdo, incluindo o botão */
+  padding: 10px;
+  position: fixed;
+  background-color: rgba(157, 38, 121, 0.229);
+  width: 100%;
+  bottom: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona sombra nas palavras do rodapé */
+}
+
